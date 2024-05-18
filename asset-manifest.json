@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.js": "/box-office-with-react/static/js/main.140e6b37.js",
+    "static/js/453.3e1816ca.chunk.js": "/box-office-with-react/static/js/453.3e1816ca.chunk.js",
+    "service-worker.js": "/box-office-with-react/service-worker.js",
+    "index.html": "/box-office-with-react/index.html",
+    "main.140e6b37.js.map": "/box-office-with-react/static/js/main.140e6b37.js.map",
+    "453.3e1816ca.chunk.js.map": "/box-office-with-react/static/js/453.3e1816ca.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/js/main.140e6b37.js"
+  ]
+}
