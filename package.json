@@ -2,13 +2,15 @@
   "name": "box-office",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://AdityaNarayan1203.github.io/box-office-with-react",
   "dependencies": {
-    "@testing-library/jest-dom": "^5.17.0",
-    "@testing-library/react": "^13.4.0",
-    "@testing-library/user-event": "^13.5.0",
+    "@tanstack/react-query": "^5.35.1",
+    "gh-pages": "^6.1.1",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
+    "react-router-dom": "^6.23.0",
     "react-scripts": "5.0.1",
+    "styled-components": "^6.1.11",
     "web-vitals": "^2.1.4",
     "workbox-background-sync": "^6.6.0",
     "workbox-broadcast-update": "^6.6.0",
@@ -27,7 +29,10 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "format": "prettier --write src/**/*.{js,jsx}",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
@@ -46,5 +51,12 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "eslint": "^8.57.0",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-react": "^7.34.1",
+    "eslint-plugin-react-hooks": "^4.6.2",
+    "prettier": "^3.2.5"
   }
 }
